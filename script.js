@@ -69,15 +69,6 @@ const Borrar = () => {
   ctx.fillRect(0,0,300,200);
 }
 
-/*Parte1();
-Parte2();
-Parte3();
-Parte4();
-Parte5();
-Parte6();
-Parte7();
-Parte8();*/
-
 const AñadirLetra = letra => {
   const ElementoLetras = document.createElement('span');
   ElementoLetras.innerHTML = letra.toUpperCase();
@@ -94,7 +85,6 @@ const LetraIncorrecta = () => {
   Errores++;
   if(Errores===Partes){
     FindeJuegoPerdio ();
-    //Borrar();
   } else{
     switch (Errores){
       case 1: 
@@ -139,7 +129,6 @@ const LetraCorrecta = letra => {
   }
   if(Aciertos === PalabraSeleccionada.length){
     FindeJuegoGano();
-    //Borrar();
   } 
 }
 
