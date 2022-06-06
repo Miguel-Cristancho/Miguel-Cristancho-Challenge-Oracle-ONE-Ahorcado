@@ -2,7 +2,6 @@ html, body {
   font-family: 'Quicksand', sans-serif;
   height: 100%;
   width: 100%;
-  /*background: #929292;*/
   background-image: url("/Pared.jpg");
   color: #614444;
   display: flex;
