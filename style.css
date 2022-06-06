@@ -1,0 +1,100 @@
+html, body {
+  font-family: 'Quicksand', sans-serif;
+  height: 100%;
+  width: 100%;
+  /*background: #929292;*/
+  background-image: url("/Pared.jpg");
+  color: #614444;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Contenido{
+  background: #FEE619;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0 rgba(239, 174, 180, 100);
+}
+
+.logo{
+  display: block;
+  margin: auto; 
+  padding-bottom: 2em;
+  padding-right: 1%;
+}
+
+#Canvas{
+  border: 5px;
+  box-shadow: 0 0 8px 0 rgba(252, 188, 38, 100);
+}
+
+#LetrasUsadas{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#IniciarJuego{
+  margin-top: 40px;
+  appearance: none;
+  border: none;
+  width: 300px;
+  padding: 10px;
+  background: #b70e21;
+  color: white;
+  cursor: pointer;
+}
+
+#IniciarJuego:hover{
+  box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.3);
+}
+
+.hidden {
+  color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
+.letter {
+  margin: 0 8px;
+  position: relative;
+  text-align: center;
+}
+
+.letter::after{
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #614444;
+  min-width: 12px;
+}
+
+footer{
+  padding: 0;
+  width: 100%;
+  height: 10px;
+  margin-top: 40px;
+}
+
+h2{
+  color: #156394;
+}
+
+h4{
+  font-family: Roboto,sans-serif;
+  text-shadow: 1px 1px 2px black;
+  font-size: 100%;
+  color: #EFF3F8;
+  width: 100%;
+  text-align: center;
+  padding-bottom:1em;
+}
