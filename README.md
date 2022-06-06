@@ -1,9 +1,9 @@
 # Challenge-Oracle-ONE-Ahorcado
-Semana 3 y 4: Crea tu propio juego del ahorcado
+## Semana 3 y 4: Crea tu propio juego del ahorcado
 
 Juego del ahorcado
 
-Requisitos:
+#### Requisitos:
 - Debe funcionar solo con letras mayúsculas;
 - No deben ser utilizadas letras con acentos ni caracteres especiales;
 - Al completar o dibujo de la horca, debe ser mostrado un mensaje "Fin del juego" en la pantalla;
@@ -13,3 +13,7 @@ Requisitos:
 - No debe ser posible escribir números dentro del juego.
 - Las letras equivocadas deben aparecer en la pantalla, pero no pueden aparecer de forma repetida;
 - Las letras correctas deben aparecer en la pantalla encima de los guiones, en la posición correcta em relación a la palabra.
+
+#### Resultado:
+
+URL: https://ahorcado.miguelangel8.repl.co/
